@@ -5,5 +5,6 @@ def call(body) {
          body.delegate = config
          body()
          echo "${config.pack}"
+         echo "${config.company}"
     }
 }
