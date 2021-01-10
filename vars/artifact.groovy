@@ -1,4 +1,4 @@
-def call(body) {
+def call(Map body) {
     node {
          def config = [:]
          body.resolveStrategy = Closure.DELEGATE_FIRST
